@@ -1,0 +1,48 @@
+# 运行时数据与凭证，绝不提交
+config.json
+edge-auto/
+edge-auto.pid
+edge-auto.log
+cdp_result*.json
+raw/
+work/
+outputs/
+state.json
+sync_status.json
+keepalive_status.json
+login-needed.flag
+*.log
+auth_req*.json
+auth_err*.txt
+feishu-relogin-qr.png
+重新登录课表账号.cmd
+run_sync.vbs
+run_keepalive.vbs
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器/系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+HANDOFF.md
+
+# 文档/脚本产生的敏感中间产物
+qr.png
+cookies.txt
+feishu_calendar_push_log.json
+lark_base_resources.json
+feishu_base_payload/
+*.ndjson
+normalized*.json
+calendar_raw*.json
+base_records*.json
+*.xlsx
+*.ics
+*.csv
+cdp_result.*.json
